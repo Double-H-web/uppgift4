@@ -9,6 +9,14 @@ body{
     background-color: #514914;
 }
 
+img{
+    width:7em;
+    position:relative;
+    top:18%;
+    left:2%;
+    float:left;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -49,6 +57,7 @@ h1{
     color: white;  
     margin: 0;
     padding: 2%;
+    font-size: 4em;
 }
 
 main{
@@ -71,6 +80,20 @@ main p{
     padding: 3%;
 }
 
+.start-button{
+    display: block;
+    min-width: 10%;
+    max-width: 25%;
+    margin: 2% auto;
+    padding: 2%;
+    background-color: rgb(25, 66, 0);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    border: solid #5B943A 10px;
+    border-radius: 30px;
+}
 
 footer{
     background-color: rgb(12, 33, 0);

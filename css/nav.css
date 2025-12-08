@@ -12,6 +12,15 @@ nav{
     opacity: 0.8;
 }
 
+img{
+    width:5em;
+    position:relative;
+    top:0%;
+    left:2%;
+    float:left;
+
+}
+
 ul{
     list-style-type: none;
     margin: 0;
