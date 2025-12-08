@@ -1,0 +1,69 @@
+body{
+    background-image: url(../image/pathonesmall.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    margin: 0;
+    background-color: #514914;
+    min-width: 300px;
+}
+
+nav{
+    opacity: 0.8;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(25, 66, 0);
+}
+li{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 7%;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: rgb(91, 148, 58);
+}
+
+.active{
+    background-color: rgb(91, 148, 58);
+}
+
+main{  
+    background-color: #5B943A;
+    margin: 8% 15%;
+    padding: 1%;
+}
+
+h2{
+    text-align: center;
+    font-size: 200%;
+}
+
+p{
+    font-size: 120%;
+}
+
+footer{
+    background-color: rgb(12, 33, 0);
+    color:white;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.8;
+    font-size: small;
+}

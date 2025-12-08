@@ -1,0 +1,83 @@
+body{
+    background-image: url("../image/pathonesmallextended.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    margin: 0;
+    opacity: 0.8;
+    min-width: 300px;
+    background-color: #514914;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(25, 66, 0);
+}
+li{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 7%;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: rgb(91, 148, 58);
+}
+
+.active{
+    background-color: rgb(91, 148, 58);
+}
+
+h1{
+    text-align: center;
+    font-family: 'Metamorphous', serif;
+    background-color: rgb(25, 66, 0);
+    color: white;  
+    margin: 0;
+    padding: 2%;
+}
+
+main{
+    background-color: #5B943A;
+    margin: 5% 5%;
+}
+
+h2{
+    text-align: center;
+}
+
+main p{
+    font-family: "Comic Relief", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    width: 85%;
+    background-color: #5B943A;
+    color: white;
+    margin: 0 auto;
+    padding: 3%;
+}
+
+
+footer{
+    background-color: rgb(12, 33, 0);
+    color:white;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
