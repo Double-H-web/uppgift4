@@ -84,7 +84,7 @@ main p{
     font-style: normal;
     width: 85%;
     background-color: #5B943A;
-    color: white;
+    color: rgb(0, 0, 0);
     margin: 0 auto;
     padding: 0 0 3% 3%;
     line-height: 1.6;
@@ -118,8 +118,6 @@ footer{
     background-color: rgb(12, 33, 0);
     color:white;
     text-align: center;
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    padding: 1%;
     width: 100%;
 }
