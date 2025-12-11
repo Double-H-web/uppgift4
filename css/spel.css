@@ -49,13 +49,33 @@ li a:hover{
     background-color: rgb(91, 148, 58);
 }
 main {
-    background-image: url("../image/listing-1302815.png");
+    background-image: url("../image/parchment.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0% -2%;
-    max-width: 59%;
+    max-width: 56rem;
     margin: auto;
     padding: 9em;
+}
+
+p{
+    font-family: "Comic Relief", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100%;
+    line-height: 1.7;
+    padding: 0 1.5rem;
+
+}
+
+button{
+    font-size: 1.2em;
+    margin: 1em;
+    padding: 1em;
+    background-color: rgb(91, 148, 58);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
 }
 
 footer{
