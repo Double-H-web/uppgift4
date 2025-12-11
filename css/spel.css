@@ -52,4 +52,16 @@ main {
     background-image: url("../image/listing-1302815.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 0% -2%;
+    max-width: 59%;
+    margin: auto;
+    padding: 9em;
+}
+
+footer{
+    background-color: rgb(12, 33, 0);
+    color:white;
+    text-align: center;
+    padding: 1%;
+    width: 100%;
 }
