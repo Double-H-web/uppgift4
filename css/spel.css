@@ -71,11 +71,18 @@ button{
     font-size: 1.2em;
     margin: 1em;
     padding: 1em;
-    background-color: rgb(91, 148, 58);
+    background-color: rgb(148, 189, 124);
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    max-width: 15rem;
+    min-width: 10rem;
 
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 footer{
