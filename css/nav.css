@@ -8,6 +8,15 @@ body{
     min-width: 300px;
 }
 
+.logga{
+    width:5.1em;
+    position:relative;
+    top:0%;
+    left:2%;
+    float:left;
+    background-color: rgb(25, 66, 0);
+}
+
 nav{
     opacity: 0.8;
 }
@@ -18,39 +27,33 @@ img{
     top:0%;
     left:2%;
     float:left;
-
 }
 
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(25, 66, 0);
-}
-li{
-    float: left;
-    width: 33.33%;
-    text-align: center;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 0 5rem;
+  overflow: hidden;
+  background-color:rgb(25, 66, 0);
 }
 
-li a{
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 7%;
-    text-decoration: none;
+ul li {
+  float: left;
 }
 
-#active{
-    background-color: rgb(91, 148, 58);
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 2rem 12rem;
+  text-decoration: none;
 }
 
-li a:hover{
-    background-color: rgb(91, 148, 58);
+ul li a:hover {
+  background-color: rgb(91, 148, 58);
 }
 
-.active{
+ul li a.active{
     background-color: rgb(91, 148, 58);
 }
 
