@@ -13,7 +13,7 @@ nav{
 }
 
 .logga{
-    width:5.1em;
+    width:4.9rem;
     position:relative;
     top:0%;
     left:2%;
@@ -21,39 +21,33 @@ nav{
     background-color: rgb(25, 66, 0);
 }
 
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(25, 66, 0);
-}
-li{
-    float: left;
-    width: 33.33%;
-    text-align: center;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 0 5rem;
+  overflow: hidden;
+  background-color:rgb(25, 66, 0);
 }
 
-li a{
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 7%;
-    text-decoration: none;
+ul li {
+  float: left;
 }
 
-#active{
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 2rem 12rem;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: rgb(91, 148, 58);
+}
+
+ul li a.active{
     background-color: rgb(91, 148, 58);
 }
-
-li a:hover{
-    background-color: rgb(91, 148, 58);
-}
-
-.active{
-    background-color: rgb(91, 148, 58);
-}
-
 
 .responsive-svg{
     max-width: 100%;
