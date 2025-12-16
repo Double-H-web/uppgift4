@@ -4,7 +4,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: scroll;
     margin: 0;
-    opacity: 0.8;
+    opacity: 0.9;
     min-width: 300px;
     background-color: #514914;
 }
@@ -85,7 +85,7 @@ main p{
     color: rgb(0, 0, 0);
     margin: 0 auto;
     padding: 0 0 3% 3%;
-    line-height: 1.6;
+    line-height: 1.8;
     font-size: larger;
 }
 

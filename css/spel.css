@@ -16,6 +16,13 @@ body{
     width:4.9rem;
 }
 
+@media screen and (min-width: 600px) {
+    .logga{
+        width:5.1em;
+    }
+    
+}
+
 nav{
     display: flex;
     background-color: rgb(25, 66, 0);
