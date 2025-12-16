@@ -17,6 +17,10 @@ body{
     background-color: rgb(25, 66, 0);
 }
 
+#active{
+    background-color: rgb(91, 148, 58);
+}
+
 nav{
     opacity: 0.8;
 }

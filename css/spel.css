@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     background-image: url("../image/pathonesmallextended.jpg");
     background-size: cover;
@@ -10,42 +14,26 @@ body{
 
 .logga{
     width:4.9rem;
-    position:relative;
-    top:0%;
-    float:left;
+}
+
+nav{
+    display: flex;
     background-color: rgb(25, 66, 0);
 }
 
-* {
-    box-sizing: border-box;
+nav a{
+    flex: 1;
+    color: white;
+    text-align: center;
+    padding: 2rem 0rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    align-self: center;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0 0 0 5rem;
-  overflow: hidden;
-  background-color:rgb(25, 66, 0);
-}
-
-ul li {
-  float: left;
-}
-
-ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 2rem 12rem;
-  text-decoration: none;
-}
-
-ul li a:hover {
-  background-color: rgb(91, 148, 58);
-}
-
-ul li a.active{
+nav a:hover {
     background-color: rgb(91, 148, 58);
+    cursor: pointer;
 }
 
 main {
