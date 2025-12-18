@@ -14,7 +14,9 @@ body{
 
 
 .logga{
-    width:4.9rem;
+    width: 5rem;
+    height: 5rem;
+    margin: -2rem;
 }
 
 nav{

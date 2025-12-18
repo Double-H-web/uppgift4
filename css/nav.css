@@ -103,11 +103,18 @@ p{
 }
 
 footer{
+    font-family: "Comic Relief", system-ui;
+    font-weight: 400;
+    font-style: normal;
     background-color: rgb(12, 33, 0);
     color:white;
     text-align: center;
-    width: 100%;
     opacity: 0.8;
     font-size: small;
     padding: 1%;
+    line-height: 1.7;
+}
+
+a{
+    color: white;
 }

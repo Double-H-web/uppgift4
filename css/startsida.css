@@ -113,9 +113,16 @@ strong{
 }
 
 footer{
+    font-family: "Comic Relief", system-ui;
+    font-weight: 400;
+    font-style: normal;
     background-color: rgb(12, 33, 0);
     color:white;
     text-align: center;
     padding: 1%;
-    width: 100%;
+    line-height: 1.7;
+}
+
+a{
+    color: white;
 }
