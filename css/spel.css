@@ -12,15 +12,9 @@ body{
     background-color: #514914;
 }
 
+
 .logga{
     width:4.9rem;
-}
-
-@media screen and (min-width: 600px) {
-    .logga{
-        width:5.1em;
-    }
-    
 }
 
 nav{
@@ -43,13 +37,14 @@ nav a:hover {
     cursor: pointer;
 }
 
-main {
-    background-image: url("../image/parchment.png");
-    background-size: cover;
+main{
+    background-image: url(../image/listing-1302815.png);
     background-repeat: no-repeat;
-    max-width: 56rem;
-    margin: auto;
-    padding: 9em;
+    background-position: center top;
+    background-clip: border-box;
+    background-size: 71rem 253rem;
+    background-origin: padding-box;
+    margin: 1rem auto;
 }
 
 p{
@@ -58,8 +53,10 @@ p{
     font-style: normal;
     font-size: 100%;
     line-height: 1.7;
-    padding: 0 1.5rem;
-
+    padding: 21% 13% 2%;
+    margin: auto;
+    max-width: 75%;
+    min-width: 20%;
 }
 
 .button{
@@ -67,14 +64,16 @@ p{
     margin: 1em;
     padding: 1em;
     background-color: rgb(148, 189, 124);
-    border: none;
     border-radius: 8px;
     cursor: pointer;
     text-decoration: none;
     color: black;
-    width: 13em;
+    max-width: 13rem;
+    min-width: 9rem;
     display: inline-block;
     text-align: center;
+    position: relative;
+    left: 30%;
 }
 
 .button:hover{
@@ -87,4 +86,9 @@ footer{
     text-align: center;
     padding: 1%;
     width: 100%;
+}
+
+footer p{
+    color: white;
+    padding: 2%;
 }
