@@ -38,11 +38,11 @@ nav a:hover {
 }
 
 main{
-    background-image: url(../image/listing-1302815.png);
+    background-image: url(../image/parchment.png);
     background-repeat: no-repeat;
     background-position: center top;
     background-clip: border-box;
-    background-size: 71rem 253rem;
+    background-size: 71rem 102rem;
     background-origin: padding-box;
     margin: 1rem auto;
 }
@@ -53,7 +53,7 @@ p{
     font-style: normal;
     font-size: 100%;
     line-height: 1.7;
-    padding: 21% 13% 2%;
+    padding: 12% 13% 2%;
     margin: auto;
     max-width: 75%;
     min-width: 20%;
