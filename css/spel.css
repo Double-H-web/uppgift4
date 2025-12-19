@@ -9,10 +9,11 @@ body{
     background-attachment: scroll;
     margin: 0;
     min-width: 300px;
-    background-color: #514914;
+    background-color: rgb(251, 241, 214);
 }
-
-
+/*
+background-color: #514914;
+*/
 .logga{
     width: 5rem;
     height: 5rem;
