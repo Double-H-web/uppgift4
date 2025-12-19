@@ -1,3 +1,4 @@
+/*Margin och padding ska räknas in i boxarnas höjd och bredd.*/
 * {
     box-sizing: border-box;
 }
@@ -12,17 +13,20 @@ body{
     background-color: rgb(251, 241, 214);
 }
 
+/*Navigationsbar*/
 .logga{
     width: 5rem;
     height: 5rem;
     margin: -2rem;
 }
 
+/*Istället för float har jag här använt flexboxar för att demonstrera hur en sådan kod ser ut.*/
 nav{
     display: flex;
     background-color: rgb(25, 66, 0);
 }
 
+/*Länkar i navigationsbaren ska ligga överst.*/
 nav a{
     flex: 1;
     color: white;
@@ -38,13 +42,14 @@ nav a:hover {
     cursor: pointer;
 }
 
+/*Huvudinnehåll*/
+
+/*Main ska ha sin egen bakgrundsbild med specificerad bredd och höjd och den ska inte upprepas.*/
 main{
     background-image: url(../image/parchment.png);
     background-repeat: no-repeat;
     background-position: center top;
-    background-clip: border-box;
-    background-size: 71rem 102rem;
-    background-origin: padding-box;
+    background-size: 71rem 109rem;
     margin: 1rem auto;
 }
 
@@ -60,6 +65,11 @@ p{
     min-width: 20%;
 }
 
+/*Elementen med klassen button ska ha en viss: 
+textstorlek, bakgrundsfärg, textfärg, maximum och minimum bredd, 
+muspekaren ska ändra form över de.
+Genom att sätta deras display till inline-block kan de vara på samma linje som 
+andra inline eller inline-block element samt kunna ändra bredd, höjd och margin.*/
 .button{
     font-size: 1.2em;
     margin: 1em;
@@ -81,6 +91,7 @@ p{
     background-color: rgb(91, 148, 58);
 }
 
+/*Footnote*/
 footer{
     background-color: rgb(12, 33, 0);
     color:white;
@@ -98,6 +109,7 @@ footer a{
     color: white;
 }
 
+/*Specificering på hur main och .button ska bete sig vid 900px och mindre.*/
 @media screen and (max-width: 900px) {
     main{
         background-image: none;

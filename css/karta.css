@@ -1,3 +1,4 @@
+/*Sätter upp bakgrundsbild och hur den ska bete sig*/
 body{
     background-image: url(../image/pathonesmall.png);
     background-size: cover;
@@ -8,6 +9,9 @@ body{
     min-width: 300px;
 }
 
+/*Navigationbar
+Den ska rada upp loggan och listan från vänster till höger.
+*/
 .logga{
     width:4.9rem;
     position:relative;
@@ -54,6 +58,7 @@ ul li a.active{
     background-color: rgb(91, 148, 58);
 }
 
+/*Huvudinnehåll*/
 .responsive-svg{
     max-width: 100%;
     height: auto;
@@ -72,11 +77,13 @@ a circle:hover{
     opacity: 0.8;
 }
 
-
 p{
     font-size: 120%;
 }
 
+/*Footnotes
+Specificerar font samt text stil och tjocklek.
+Texten ska vara centrerad.*/
 footer{
     font-family: "Comic Relief", system-ui;
     font-weight: 400;

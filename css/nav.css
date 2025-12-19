@@ -8,6 +8,7 @@ body{
     min-width: 300px;
 }
 
+/*Navigationsbar*/
 .logga{
     width:4.9rem;
     position:relative;
@@ -62,6 +63,7 @@ ul li a.active{
     background-color: rgb(91, 148, 58);
 }
 
+/*Huvudinnehåll*/
 main{  
     background-color: #5B943A;
     margin: 8% 15%;
@@ -85,6 +87,10 @@ p{
     padding: 0 2rem;
 }
 
+/*Elementen med klassen .start-button ska bete sig som block element.
+Specifikationer på font, storlek, tjocklek, text position, text färg,
+bakgrunds färg samt margin och padding.
+Länkarna ska inte ha en underline.*/
 .start-button{
     font-family: "Metamorphous", serif;
     font-weight: 400;
@@ -103,6 +109,7 @@ p{
     border-radius: 30px;
 }
 
+/*Footnote*/
 footer{
     font-family: "Comic Relief", system-ui;
     font-weight: 400;

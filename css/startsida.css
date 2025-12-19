@@ -9,6 +9,7 @@ body{
     background-color: #514914;
 }
 
+/*Navigationsbar*/
 .logga{
     width:5.1em;
     position:relative;
@@ -50,6 +51,7 @@ ul li a.active{
     background-color: rgb(91, 148, 58);
 }
 
+/*Huvudinnehåll*/
 h1{
     text-align: center;
     font-family: "Metamorphous", serif;
@@ -89,6 +91,7 @@ main p{
     font-size: larger;
 }
 
+/*Då jag har en custom font behöver det specificeras hur texten ska se ut när den är fetstilad.*/
 strong{
     font-family: "Comic Relief", system-ui;
     font-weight: 700;
@@ -112,6 +115,7 @@ strong{
     border-radius: 30px;
 }
 
+/*Footnote*/
 footer{
     font-family: "Comic Relief", system-ui;
     font-weight: 400;
