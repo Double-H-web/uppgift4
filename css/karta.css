@@ -8,14 +8,6 @@ body{
     min-width: 300px;
 }
 
-nav{
-    opacity: 0.8;
-}
-
-#active a{
-    background-color: rgb(91, 148, 58);
-}
-
 .logga{
     width:4.9rem;
     position:relative;
@@ -23,6 +15,15 @@ nav{
     left:2%;
     float:left;
     background-color: rgb(25, 66, 0);
+}
+
+#active a{
+    background-color: rgb(91, 148, 58);
+    color: black;
+}
+
+nav{
+    opacity: 0.9;
 }
 
 ul {

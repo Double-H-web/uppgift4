@@ -17,12 +17,13 @@ body{
     background-color: rgb(25, 66, 0);
 }
 
-#active{
+#active a{
     background-color: rgb(91, 148, 58);
+    color: black;
 }
 
 nav{
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 img{
